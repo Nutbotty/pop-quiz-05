@@ -13,6 +13,8 @@ def calculate_pay(hours, wage):
     0
     >>> calculate_pay(40, 10)
     400
+    >>> calculate_pay(45, 10)
+    500
     """
     weekly_pay = 0
     if hours <= 0 or wage <= 0:
@@ -26,5 +28,5 @@ def calculate_pay(hours, wage):
 
 def main():
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
