@@ -25,24 +25,6 @@ def calculate_pay(hours, wage):
 
 
 def main():
-    example_result = calculate_pay(45, 1)
-    print(example_result)
-
-    example_result = calculate_pay(0, 1)
-    print(example_result)
-
-    example_result = calculate_pay(30.24, 1.00)
-    print(example_result)
-
-    example_result = calculate_pay(30.67, 0)
-    print(example_result)
-
-    example_result = calculate_pay(30.67, 10.25)
-    print(example_result)
-
-    example_result = calculate_pay(1, 0.04999999999)
-    print(example_result)
-
 
 if __name__ == "__main__":
     main()
